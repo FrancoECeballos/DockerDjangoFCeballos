@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     "default": {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'itsv',
+        'NAME': 'test_database',
         'USER': 'itsv',
-        'PASSWORD': 'itsv',
-        'HOST': 'mysql',
+        'PASSWORD': 'itsvpassword',
+        'HOST': 'db',
         'PORT': '3306',
     }
 }
